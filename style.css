@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+
+html,body {
+    font-size: 62.5%;
+    font-family: 'Times New Roman', Times, serif;
+    text-rendering: optimizeLegibility;
+}
+
+.quadrado {
+    background-color: #a3c3b8;
+    height: 35rem;
+    width: 55rem;
+    border-radius: 2rem;
+    padding: 3rem;
+    margin-top: 17rem;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2.7rem;
+}
+
+p {
+    font-size: 2.7rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 1rem;
+}
+
+input {
+    font-size: 2rem;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+button {
+    display:flex;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    color: #2a091c;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#resultado {
+    color: aliceblue;
+}
